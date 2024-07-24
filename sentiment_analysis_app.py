@@ -14,3 +14,4 @@ user_input = st.text_area("Enter text to analyze")
 if st.button('Analyze'):
     result = model(user_input)
     st.write(result)
+
